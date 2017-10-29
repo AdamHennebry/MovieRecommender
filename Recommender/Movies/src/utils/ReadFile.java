@@ -12,13 +12,13 @@ public class ReadFile {
 	
 	
 	private String[] splitString;
-	File  datastore = new File("datastore3.xml");
+	File  datastore = new File(" ");
     Serializer serializer = new XMLSerializer(datastore);
     RecommenderAPI recommenderAPI = new RecommenderAPI(serializer);
 	
     public void readMovies() throws Exception{		
 		BufferedReader in = null;
-		in = new BufferedReader(new FileReader(new File("/Users/samantha/algorithms/moviedata_small/items5.dat")));
+		in = new BufferedReader(new FileReader(new File("")));
 		try {
 			String inputLine;			
 			while ((inputLine = in.readLine()) != null){
@@ -37,8 +37,7 @@ public class ReadFile {
 	}
     public void readUsers() throws Exception{		
 		BufferedReader in = null;
-		in = new BufferedReader(new FileReader(new File("/Users/samantha/algorithms/moviedata_small/users5.dat")));
-		try {
+		in = new BufferedReader(new FileReader(new File(""));
 			String inputLine;			
 			while ((inputLine = in.readLine()) != null){
 				splitString = inputLine.split("[|]");
@@ -59,7 +58,7 @@ public class ReadFile {
 	}
     public void readRatings() throws Exception{		
 		BufferedReader in = null;
-		in = new BufferedReader(new FileReader(new File("/Users/samantha/algorithms/moviedata_small/ratings5.dat")));
+		in = new BufferedReader(new FileReader(new File(")));
 		try {
 			String inputLine;			
 			while ((inputLine = in.readLine()) != null){
@@ -77,7 +76,7 @@ public class ReadFile {
 	}
     public void readOccupation() throws Exception{		
 		BufferedReader in = null;
-		in = new BufferedReader(new FileReader(new File("/Users/samantha/algorithms/moviedata_small/occupation.dat")));
+		in = new BufferedReader(new FileReader(new File(" ")));
 		try {
 			String inputLine;			
 			while ((inputLine = in.readLine()) != null){

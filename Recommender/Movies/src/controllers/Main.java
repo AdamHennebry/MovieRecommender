@@ -54,14 +54,6 @@ public class Main {
 		recommenderAPI.store();
 		runMenu();
 	}
-	public void login() throws Exception{
-		input.nextLine();
-		System.out.println("first name");
-		String firstName=input.nextLine();
-		System.out.println("last name");
-		String lastName =input.nextLine();
-		Long userID=recommenderAPI.getUserByName(firstName, lastName);
-		runUserMenu(userID);
 	
 	public void addMovie() throws Exception{
 		input.nextLine();
