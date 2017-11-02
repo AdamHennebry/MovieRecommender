@@ -8,7 +8,7 @@ import utils.Serializer;
 import utils.XMLSerializer;
 
 public class Main {
-	//datastore name needed...
+	//datastore filename needed..
 	File  datastore = new File("");
     Serializer serializer = new XMLSerializer(datastore);
     
