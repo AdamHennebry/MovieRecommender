@@ -36,7 +36,7 @@ public class User {
 		this.occupation=occupation;
 	}
 	
-	/Getters
+	//Getters
 	public String getFirstName(){
 		return firstName;
 	}

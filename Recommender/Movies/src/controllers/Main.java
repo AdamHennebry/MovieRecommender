@@ -8,8 +8,8 @@ import utils.Serializer;
 import utils.XMLSerializer;
 
 public class Main {
-	
-	File  datastore = new File("datastore3.xml");
+	//datastore name needed...
+	File  datastore = new File("");
     Serializer serializer = new XMLSerializer(datastore);
     
     RecommenderAPI recommenderAPI = new RecommenderAPI(serializer);
