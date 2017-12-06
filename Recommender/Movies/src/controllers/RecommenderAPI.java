@@ -120,3 +120,8 @@ public class RecommenderAPI {
 		return totalRating/count;		
 	}
 	
+	public void topRated() {
+	}
+}
+
+	}
