@@ -1,0 +1,26 @@
+Assignment 2 - Movie Recommender.
+Name: Adam Hennebry
+Overview: The overall objective for this Assignment was to add onto Assignment, this would involve the adding of 
+a Simple user interface, Log in facility, ability to search movies based on title and the ability to calculate the top 10 movies.
+
+
+List of Functionalitiy Added:
+Top 10 Movies 
+User Interface 
+Login Facility
+Movie Search (by Title)
+Movie recommendation
+Unit Testing
+
+Installation requirements
+
+Java JREv1.8
+Guava 18.0jar
+xstream 1.4.10.jar
+
+Getting Started
+....... Could not finish (code will compile but cant get it to work).
+
+
+Data Model Design
+........
